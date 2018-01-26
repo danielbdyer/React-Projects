@@ -1,0 +1,143 @@
+
+.nav {
+  background-color: yellow;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+}
+
+.footer {
+  background-color: purple;
+  color:white;
+  text-align: center;
+}
+
+.nav div {
+  width:100px;
+  padding:10px;
+}
+
+.flowers-parent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flowers {
+  position: relative;
+  border: 1px solid black;
+  float: left;
+  margin: 10px;
+  height: 340px;
+  width: 220px;
+  padding: 10px;
+  background-color: lightgray;
+  margin-bottom: 150px;
+}
+
+.package {
+  position:absolute;
+  z-index: 3;
+  width: 200px;
+  top: 10px;
+  left: 20px;
+}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.flowerimg {
+  width: 175px;
+  vertical-align: middle;
+}
+
+div.overflow {
+  position: relative;
+  top: 100px;
+  left: 25px;
+  width: 175px;
+  height: 200px;
+  overflow:hidden;
+  background-color: lightgray;
+  border: 1px solid gray;
+}
+
+.flowerimg {
+  z-index: 1;
+  width: 200px;
+  min-height: 135px;
+  top: 100px;
+}
+
+.flowername {
+  position: absolute;
+  font-size: 12px;
+  left: 28px;
+  width: 186px;
+  z-index: 1;
+  background-color: lightgreen;
+  color: black;
+  text-align: center;
+}
+
+.flowernameheader {
+  top: 16px;
+}
+
+.flowernamefooter {
+  top: 326px;
+}
+
+.flowerdescription {
+  position: absolute;
+  font-style: italic;
+  font-size: 12px;
+  top: 360px;
+  left: -1px;
+  width: 220px;
+  background-color: lightblue;
+  z-index: 5;
+  text-align: left;
+  vertical-align: middle;
+  padding: 5px 10px 10px 10px;
+  border: 1px solid black;
+}
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  -webkit-animation: App-logo-spin infinite 20s linear;
+          animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@-webkit-keyframes App-logo-spin {
+  from { -webkit-transform: rotate(0deg); transform: rotate(0deg); }
+  to { -webkit-transform: rotate(360deg); transform: rotate(360deg); }
+}
+
+@keyframes App-logo-spin {
+  from { -webkit-transform: rotate(0deg); transform: rotate(0deg); }
+  to { -webkit-transform: rotate(360deg); transform: rotate(360deg); }
+}
